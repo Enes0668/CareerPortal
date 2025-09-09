@@ -1,0 +1,12 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+    <div class="alert alert-success mt-3">
+        Hoş geldin <strong>@User.Identity.Name</strong> 🎉
+    </div>
+}
+else
+{
+    <div class="alert alert-info mt-3">
+        Kariyer portalına hoş geldiniz. Lütfen <a asp-controller="Account" asp-action="Login">giriş yapın</a>.
+    </div>
+}
