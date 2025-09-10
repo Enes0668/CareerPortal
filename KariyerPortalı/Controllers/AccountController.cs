@@ -1,24 +1,30 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Authentication;
 
 public class AccountController : Controller
 {
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly SignInManager<ApplicationUser> _signInManager;
+    private readonly IEmailSender _emailSender;
 
-    public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+    public AccountController(
+        UserManager<ApplicationUser> userManager,
+        SignInManager<ApplicationUser> signInManager,
+        IEmailSender emailSender)
     {
         _userManager = userManager;
         _signInManager = signInManager;
+        _emailSender = emailSender;
     }
 
     // Register GET
     [HttpGet]
-    public IActionResult Register()
-    {
-        return View();
-    }
+    public IActionResult Register() => View();
 
     // Register POST
     [HttpPost]
@@ -29,7 +35,7 @@ public class AccountController : Controller
         {
             var user = new ApplicationUser
             {
-                UserName = model.Email, // Email ile login yapılacak
+                UserName = model.Email, // login email ile
                 Email = model.Email,
                 FullName = model.FullName
             };
@@ -38,8 +44,16 @@ public class AccountController : Controller
 
             if (result.Succeeded)
             {
-                await _signInManager.SignInAsync(user, isPersistent: false);
-                return RedirectToAction("Index", "Home");
+                // Email doğrulama token oluştur
+                var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                var confirmationLink = Url.Action("ConfirmEmail", "Account",
+                    new { userId = user.Id, token }, Request.Scheme);
+
+                // Email gönder
+                await _emailSender.SendEmailAsync(user.Email, "Email Doğrulama",
+                    $"Hesabınızı doğrulamak için <a href='{confirmationLink}'>buraya tıklayın</a>.");
+
+                return View("RegistrationConfirmation"); // Email gönderildi sayfası
             }
 
             foreach (var error in result.Errors)
@@ -47,6 +61,24 @@ public class AccountController : Controller
         }
 
         return View(model);
+    }
+
+    // ConfirmEmail GET
+    [HttpGet]
+    public async Task<IActionResult> ConfirmEmail(string userId, string token)
+    {
+        if (userId == null || token == null)
+            return RedirectToAction("Index", "Home");
+
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user == null)
+            return NotFound();
+
+        var result = await _userManager.ConfirmEmailAsync(user, token);
+        if (result.Succeeded)
+            return View("EmailConfirmed");
+        else
+            return View("Error");
     }
 
     // Login GET
@@ -64,14 +96,29 @@ public class AccountController : Controller
     {
         if (ModelState.IsValid)
         {
-            // Email ile kullanıcıyı bul
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user != null)
             {
-                var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, lockoutOnFailure: false);
+                if (!await _userManager.IsEmailConfirmedAsync(user))
+                {
+                    ModelState.AddModelError(string.Empty, "Lütfen email adresinizi doğrulayın.");
+                    return View(model);
+                }
+
+                var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
                 if (result.Succeeded)
                 {
-                    await _signInManager.SignInAsync(user, model.RememberMe);
+                    // Claims ile FullName’i sakla
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, user.FullName),
+                        new Claim(ClaimTypes.Email, user.Email)
+                    };
+
+                    var identity = new ClaimsIdentity(claims, "login");
+                    await HttpContext.SignInAsync(IdentityConstants.ApplicationScheme, new ClaimsPrincipal(identity),
+                        new Microsoft.AspNetCore.Authentication.AuthenticationProperties { IsPersistent = model.RememberMe });
+
                     return RedirectToLocal(returnUrl);
                 }
             }
@@ -85,13 +132,8 @@ public class AccountController : Controller
     private IActionResult RedirectToLocal(string returnUrl)
     {
         if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
-        {
             return Redirect(returnUrl);
-        }
-        else
-        {
-            return RedirectToAction("Index", "Home");
-        }
+        return RedirectToAction("Index", "Home");
     }
 
     // Logout

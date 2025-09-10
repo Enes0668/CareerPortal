@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Email Gönderildi";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-info text-white text-center">
+                    <h3>Email Doğrulama</h3>
+                </div>
+                <div class="card-body text-center">
+                    <p>Teşekkürler, kayıt işleminiz başarılı!</p>
+                    <p>Lütfen email adresinize gönderilen linke tıklayarak hesabınızı doğrulayın.</p>
+                    <i class="bi bi-envelope-fill" style="font-size: 3rem; color: #0dcaf0;"></i>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-controller="Account" asp-action="Login" class="btn btn-info">Giriş Yap</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

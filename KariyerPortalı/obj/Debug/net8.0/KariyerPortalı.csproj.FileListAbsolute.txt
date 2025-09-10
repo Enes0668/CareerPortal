@@ -147,3 +147,4 @@ C:\Users\Enes Melih Eroğlu\source\repos\KariyerPortalı\KariyerPortalı\bin\Deb
 C:\Users\Enes Melih Eroğlu\source\repos\KariyerPortalı\KariyerPortalı\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Enes Melih Eroğlu\source\repos\KariyerPortalı\KariyerPortalı\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Enes Melih Eroğlu\source\repos\KariyerPortalı\KariyerPortalı\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Enes Melih Eroğlu\source\repos\KariyerPortalı\KariyerPortalı\obj\Debug\net8.0\KariyerPortalı.sourcelink.json

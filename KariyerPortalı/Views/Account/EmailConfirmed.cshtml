@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Email Doğrulandı";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white text-center">
+                    <h3>Email Doğrulama Başarılı</h3>
+                </div>
+                <div class="card-body text-center">
+                    <p>Hesabınız başarıyla doğrulandı! Artık giriş yapabilirsiniz.</p>
+                    <i class="bi bi-check-circle-fill" style="font-size: 3rem; color: #198754;"></i>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-controller="Account" asp-action="Login" class="btn btn-success">Giriş Yap</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

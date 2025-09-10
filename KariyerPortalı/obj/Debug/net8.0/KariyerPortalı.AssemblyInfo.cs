@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KariyerPortalı")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aca694a33f0213fb78bc7c6b54fada5884c5bbb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("KariyerPortalı")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KariyerPortalı")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

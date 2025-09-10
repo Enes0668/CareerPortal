@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -10,9 +11,13 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddDefaultTokenProviders();
+builder.Services.AddTransient<IEmailSender, EmailSender>();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
+    options.SignIn.RequireConfirmedEmail = true; // Email doðrulama zorunlu
+})
+.AddEntityFrameworkStores<ApplicationDbContext>()
+.AddDefaultTokenProviders();
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
