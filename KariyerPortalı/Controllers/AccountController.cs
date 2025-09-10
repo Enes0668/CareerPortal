@@ -144,4 +144,72 @@ public class AccountController : Controller
         await _signInManager.SignOutAsync();
         return RedirectToAction("Index", "Home");
     }
+
+    [HttpGet]
+    public IActionResult ForgotPassword()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel model)
+    {
+        if (!ModelState.IsValid)
+            return View(model);
+
+        var user = await _userManager.FindByEmailAsync(model.Email);
+        if (user == null || !(await _userManager.IsEmailConfirmedAsync(user)))
+        {
+            // Email gönderilmese bile aynı mesajı göster
+            return View("ForgotPasswordConfirmation");
+        }
+
+        // Token oluştur
+        var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+        var resetLink = Url.Action("ResetPassword", "Account",
+            new { token, email = user.Email }, Request.Scheme);
+
+        await _emailSender.SendEmailAsync(user.Email, "Şifre Sıfırlama",
+            $"Şifrenizi sıfırlamak için <a href='{resetLink}'>buraya tıklayın</a>.");
+
+        return View("ForgotPasswordConfirmation");
+    }
+    [HttpGet]
+    public IActionResult ResetPassword(string token, string email)
+    {
+        if (token == null || email == null)
+            return RedirectToAction("Index", "Home");
+
+        var model = new ResetPasswordViewModel { Token = token, Email = email };
+        return View(model);
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+    {
+        if (!ModelState.IsValid)
+            return View(model);
+
+        var user = await _userManager.FindByEmailAsync(model.Email);
+        if (user == null)
+            return RedirectToAction("ResetPasswordConfirmation");
+
+        var result = await _userManager.ResetPasswordAsync(user, model.Token, model.Password);
+        if (result.Succeeded)
+            return RedirectToAction("ResetPasswordConfirmation");
+
+        foreach (var error in result.Errors)
+            ModelState.AddModelError("", error.Description);
+
+        return View(model);
+    }
+
+    [HttpGet]
+    public IActionResult ResetPasswordConfirmation()
+    {
+        return View();
+    }
+
 }
