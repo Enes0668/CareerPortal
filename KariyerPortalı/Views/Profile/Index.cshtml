@@ -1,0 +1,19 @@
+﻿@model KariyerPortalı.Models.ProfileViewModel
+
+<h2>Profilim</h2>
+
+<div>
+    <p><strong>Ad Soyad:</strong> @Model.FullName</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Konum:</strong> @Model.Location</p>
+    <p><strong>Hakkında:</strong> @Model.Bio</p>
+
+    @if (!string.IsNullOrEmpty(Model.ExistingImageUrl))
+    {
+        <img src="@Model.ExistingImageUrl" style="width:150px;height:150px;object-fit:cover;" />
+    }
+
+    <div>
+        <a asp-action="Edit" class="btn btn-primary mt-2">Profili Düzenle</a>
+    </div>
+</div>

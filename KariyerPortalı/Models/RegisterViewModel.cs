@@ -17,4 +17,6 @@ public class RegisterViewModel
     [Compare("Password", ErrorMessage = "Şifreler uyuşmuyor")]
     [DataType(DataType.Password)]
     public string ConfirmPassword { get; set; }
+
+    [Required] public string Role { get; set; }
 }

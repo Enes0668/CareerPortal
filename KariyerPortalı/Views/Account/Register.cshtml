@@ -44,7 +44,14 @@
                             <input asp-for="ConfirmPassword" class="form-control" />
                             <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                         </div>
-
+                        <div class="mb-3">
+                            <label asp-for="Role" class="form-label">Hesap Türü</label>
+                            <select asp-for="Role" class="form-select">
+                                <option value="JobSeeker">Aday</option>
+                                <option value="Employer">İşveren</option>
+                            </select>
+                            <span asp-validation-for="Role" class="text-danger"></span>
+                        </div>
                         <button type="submit" class="btn btn-primary w-100">Kayıt Ol</button>
                     </form>
                 </div>

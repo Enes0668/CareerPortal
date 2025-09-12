@@ -1,0 +1,55 @@
+﻿@model KariyerPortalı.Models.ProfileViewModel
+
+@{
+    ViewData["Title"] = "Profilimi Düzenle";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Profilimi Düzenle</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label class="form-label">Ad Soyad</label>
+                            <input asp-for="FullName" class="form-control" />
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input asp-for="Email" class="form-control" readonly />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Konum</label>
+                            <input asp-for="Location" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Hakkında (Bio)</label>
+                            <textarea asp-for="Bio" class="form-control" rows="4"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Profil Fotoğrafı</label>
+                            <input asp-for="ProfileImage" type="file" class="form-control" />
+                            @if (!string.IsNullOrEmpty(Model.ExistingImageUrl))
+                            {
+                                <img src="@Model.ExistingImageUrl" class="img-thumbnail mt-2" style="width:100px;height:100px;object-fit:cover" />
+                            }
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
