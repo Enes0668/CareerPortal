@@ -8,4 +8,5 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
     public DbSet<Job> Jobs { get; set; }
     public DbSet<JobApplication> JobApplications { get; set; }
+    public DbSet<JobPosting> JobPostings { get; set; }
 }

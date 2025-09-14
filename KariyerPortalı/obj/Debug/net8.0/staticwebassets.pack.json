@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png",
+      "PackagePath": "staticwebassets\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png",
+      "PackagePath": "staticwebassets\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KariyerPortalı.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

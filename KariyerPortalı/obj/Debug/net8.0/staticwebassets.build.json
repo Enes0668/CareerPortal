@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wLnqeTfsiVHM9R5Votl+C/fuE6ouTjW3s3giy03yjQI=",
+  "Hash": "DMK8HWrXBtQl3MmAyzPnx+QCi7ZgWf5icNekSICtVeU=",
   "Source": "KariyerPortalı",
   "BasePath": "_content/KariyerPortalı",
   "Mode": "Default",
@@ -1193,6 +1193,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/074c75ba-7b7f-4749-b650-c5ce64e03b18.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png"
+    },
+    {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/54711f1c-f7d0-42a1-ac34-3946ff461f4a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png"
     }
   ]
 }

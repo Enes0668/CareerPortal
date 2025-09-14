@@ -81,33 +81,54 @@ namespace KariyerPortalı.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(ProfileViewModel model)
         {
-            // User.Identity üzerinden email al
+            // Kullanıcıyı email üzerinden al
             var userEmail = User.FindFirstValue(ClaimTypes.Email);
             if (string.IsNullOrEmpty(userEmail))
-            {
                 return Content("User bulunamadı, login misin?");
-            }
 
-            // Kullanıcıyı DB'den çek
             var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == userEmail);
             if (user == null)
-            {
                 return Content("DB'de kullanıcı bulunamadı");
-            }
 
+            // Model geçerliliğini kontrol et
             if (!ModelState.IsValid)
                 return View(model);
 
-            // Güncelleme
+            // Kullanıcı bilgilerini güncelle
             user.FullName = model.FullName;
             user.Bio = model.Bio;
             user.Location = model.Location;
 
+            // Profil resmi yükleme
+            if (model.ProfileImage != null && model.ProfileImage.Length > 0)
+            {
+                // wwwroot/uploads klasörünü oluştur (varsa atla)
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
+                if (!Directory.Exists(uploadsFolder))
+                    Directory.CreateDirectory(uploadsFolder);
+
+                // Dosya adı ve yolu
+                var fileName = Guid.NewGuid() + Path.GetExtension(model.ProfileImage.FileName);
+                var filePath = Path.Combine(uploadsFolder, fileName);
+
+                // Dosyayı kaydet
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await model.ProfileImage.CopyToAsync(stream);
+                }
+
+                // Kullanıcıya resmin URL’sini ata
+                user.ProfileImageUrl = "/uploads/" + fileName;
+            }
+
+            // Veritabanında güncelle
             _db.Users.Update(user);
             await _db.SaveChangesAsync();
 
             return RedirectToAction("Index");
         }
+
+
 
         // Test için login olmadan edit endpoint
         [AllowAnonymous]

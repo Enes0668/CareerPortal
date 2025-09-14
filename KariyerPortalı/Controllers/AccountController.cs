@@ -37,38 +37,48 @@ namespace KariyerPortalı.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+                return View(model);
+
+            // Yeni kullanıcı oluştur
+            var user = new ApplicationUser
             {
-                var user = new ApplicationUser
-                {
-                    UserName = model.Email, // login email ile
-                    Email = model.Email,
-                    FullName = model.FullName
-                };
+                UserName = model.Email,
+                Email = model.Email,
+                FullName = model.FullName,
+                Bio = "",
+                Location = "",
+                ProfileImageUrl = ""
+            };
 
-                var result = await _userManager.CreateAsync(user, model.Password);
-
-                if (result.Succeeded)
-                {
-                    await _userManager.AddToRoleAsync(user, model.Role ?? "JobSeeker");
-                    // Email doğrulama token oluştur
-                    var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                    var confirmationLink = Url.Action("ConfirmEmail", "Account",
-                        new { userId = user.Id, token }, Request.Scheme);
-
-                    // Email gönder
-                    await _emailSender.SendEmailAsync(user.Email, "Email Doğrulama",
-                        $"Hesabınızı doğrulamak için <a href='{confirmationLink}'>buraya tıklayın</a>.");
-
-                    return View("RegistrationConfirmation"); // Email gönderildi sayfası
-                }
-
+            // Kullanıcıyı kaydet
+            var result = await _userManager.CreateAsync(user, model.Password);
+            if (!result.Succeeded)
+            {
                 foreach (var error in result.Errors)
                     ModelState.AddModelError(string.Empty, error.Description);
+
+                return View(model);
             }
 
-            return View(model);
+            // Rol ata
+            var roleName = model.Role ?? "JobSeeker"; // Eğer rol seçilmemişse default JobSeeker
+            await _userManager.AddToRoleAsync(user, roleName);
+
+            // Email doğrulama token oluştur
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            var confirmationLink = Url.Action("ConfirmEmail", "Account",
+                new { userId = user.Id, token }, Request.Scheme);
+
+            // Email gönder
+            await _emailSender.SendEmailAsync(user.Email, "Email Doğrulama",
+                $"Hesabınızı doğrulamak için <a href='{confirmationLink}'>buraya tıklayın</a>.");
+
+            // Kayıt sonrası login yapma: email doğrulaması zorunlu olduğu için login yok
+            // Kullanıcı "RegistrationConfirmation" sayfasına yönlendirilebilir
+            return View("RegistrationConfirmation");
         }
+
 
         // ConfirmEmail GET
         [HttpGet]
