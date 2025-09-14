@@ -1,5 +1,6 @@
 using KariyerPortalı.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace KariyerPortalı.Controllers
@@ -7,16 +8,25 @@ namespace KariyerPortalı.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _db;
 
-        public HomeController(ILogger<HomeController> logger)
+
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext db)
         {
             _logger = logger;
+            _db = db;
         }
 
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index()
         {
-            return View();
+            // İş ilanlarını sırala (yeni olanlar önde)
+            var jobPostings = await _db.JobPostings
+                                       .OrderByDescending(j => j.PostedDate)
+                                       .ToListAsync();
+            return View(jobPostings);
         }
+
 
         public IActionResult Privacy()
         {

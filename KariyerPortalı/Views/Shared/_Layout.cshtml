@@ -21,7 +21,12 @@
                             @if (User.IsInRole("Employer"))
                             {
                                 <li class="nav-item d-flex align-items-center">
-                                    <a class="nav-link btn btn-outline-light ms-2" asp-controller="JobPosting" asp-action="Create">İlan Oluştur</a>
+                                    <a class="nav-link btn btn-outline-light ms-2" asp-controller="JobPosting" asp-action="Create"
+                                       style="color: #fff; background-color: transparent; border-color: #fff;"
+                                       onmouseover="this.style.backgroundColor='#fff'; this.style.color='#000';"
+                                       onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">
+                                        İlan Oluştur
+                                    </a>
                                 </li>
                             }
                             <li class="nav-item d-flex align-items-center">

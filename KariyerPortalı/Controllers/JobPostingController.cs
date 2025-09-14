@@ -43,5 +43,18 @@ namespace KariyerPortalı.Controllers
             }
             return View(model);
         }
+
+        [AllowAnonymous] // herkes görebilsin diye ekledim, sadece Employer değil
+        public async Task<IActionResult> Details(int id)
+        {
+            var job = await _db.JobPostings.FindAsync(id);
+
+            if (job == null)
+            {
+                return NotFound();
+            }
+
+            return View(job);
+        }
     }
 }

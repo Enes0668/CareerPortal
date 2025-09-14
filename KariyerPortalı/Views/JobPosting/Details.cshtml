@@ -1,0 +1,16 @@
+﻿@model KariyerPortalı.Models.JobPosting
+
+<div class="card shadow mt-4">
+    <div class="card-header bg-primary text-white">
+        <h3>@Model.Title</h3>
+    </div>
+    <div class="card-body">
+        <p><strong>Açıklama:</strong> @Model.Description</p>
+        <p><strong>Lokasyon:</strong> @Model.Location</p>
+        <p><strong>Maaş Aralığı:</strong> @Model.SalaryRange</p>
+        <p><strong>Yayın Tarihi:</strong> @Model.PostedDate.ToShortDateString()</p>
+    </div>
+    <div class="card-footer">
+        <a asp-action="Index" class="btn btn-secondary">Geri</a>
+    </div>
+</div>

@@ -125,16 +125,30 @@ namespace KariyerPortalı.Controllers
                     var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
                     if (result.Succeeded)
                     {
-                        // Claims ile FullName’i sakla
+                        // Kullanıcının rollerini al
+                        var roles = await _userManager.GetRolesAsync(user);
+
+                        // Claims listesi oluştur
                         var claims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.Name, user.FullName),
-                        new Claim(ClaimTypes.Email, user.Email)
-                    };
+                {
+                    new Claim(ClaimTypes.NameIdentifier, user.Id),
+                    new Claim(ClaimTypes.Name, user.FullName),
+                    new Claim(ClaimTypes.Email, user.Email)
+                };
+
+                        // Rol claim’lerini ekle
+                        foreach (var role in roles)
+                        {
+                            claims.Add(new Claim(ClaimTypes.Role, role));
+                        }
 
                         var identity = new ClaimsIdentity(claims, "login");
-                        await HttpContext.SignInAsync(IdentityConstants.ApplicationScheme, new ClaimsPrincipal(identity),
-                            new Microsoft.AspNetCore.Authentication.AuthenticationProperties { IsPersistent = model.RememberMe });
+                        await HttpContext.SignInAsync(IdentityConstants.ApplicationScheme,
+                            new ClaimsPrincipal(identity),
+                            new Microsoft.AspNetCore.Authentication.AuthenticationProperties
+                            {
+                                IsPersistent = model.RememberMe
+                            });
 
                         return RedirectToLocal(returnUrl);
                     }
@@ -145,6 +159,7 @@ namespace KariyerPortalı.Controllers
 
             return View(model);
         }
+
 
         private IActionResult RedirectToLocal(string returnUrl)
         {

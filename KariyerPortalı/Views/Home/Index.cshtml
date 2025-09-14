@@ -1,12 +1,82 @@
-﻿@if (User.Identity.IsAuthenticated)
-{
-    <div class="alert alert-success mt-3">
-        Hoş geldin <strong>@User.Identity.Name</strong> 🎉
+﻿@model IEnumerable<KariyerPortalı.Models.JobPosting>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+    @foreach (var job in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm hover-card">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@job.Title</h5>
+                    <p class="mt-auto mb-1"><strong>Lokasyon:</strong> @job.Location</p>
+
+                    <a asp-controller="JobPosting" asp-action="Details" asp-route-id="@job.Id" class="btn btn-primary mt-2">
+                        Detayları Gör
+                    </a>
+
+                    @if (User.IsInRole("JobSeeker")){
+                    <!-- Başvur Butonu -->
+                    <button class="btn btn-success mt-2" data-bs-toggle="modal" data-bs-target="#applyModal"
+                            data-jobid="@job.Id" data-jobtitle="@job.Title">
+                        Başvur
+                    </button>
+                    }
+                </div>
+                <div class="card-footer text-muted">
+                    Yayın Tarihi: @job.PostedDate.ToShortDateString()
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- CV Yükleme Modal -->
+<div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-controller="Application" asp-action="Apply" method="post" enctype="multipart/form-data">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="applyModalLabel">İlana Başvur</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="JobId" name="JobId" />
+
+                    <div class="mb-3">
+                        <label for="cvFile" class="form-label">CV Yükle (PDF/DOCX)</label>
+                        <input type="file" class="form-control" id="cvFile" name="CvFile" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <button type="submit" class="btn btn-success">Başvur</button>
+                </div>
+            </form>
+        </div>
     </div>
-}
-else
-{
-    <div class="alert alert-info mt-3">
-        Kariyer portalına hoş geldiniz. Lütfen <a asp-controller="Account" asp-action="Login">giriş yapın</a>.
-    </div>
-}
+</div>
+
+<style>
+    .hover-card {
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+        .hover-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+</style>
+
+<script>
+    var applyModal = document.getElementById('applyModal')
+    applyModal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget
+        var jobId = button.getAttribute('data-jobid')
+        var jobTitle = button.getAttribute('data-jobtitle')
+
+        var modalTitle = applyModal.querySelector('.modal-title')
+        var jobIdInput = applyModal.querySelector('#JobId')
+
+        modalTitle.textContent = "İlana Başvur: " + jobTitle
+        jobIdInput.value = jobId
+    })
+</script>

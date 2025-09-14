@@ -253,6 +253,14 @@
       "PackagePath": "staticwebassets\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png"
     },
     {
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KariyerPortalı.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
