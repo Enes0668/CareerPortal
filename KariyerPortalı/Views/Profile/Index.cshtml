@@ -2,16 +2,16 @@
 
 <div class="d-flex justify-content-center align-items-center mt-5">
     <div class="card shadow-lg p-4" style="max-width: 500px; width: 100%; border-radius: 1rem;">
-        <div class="text-center">
+        <div class="text-center mb-3">
             @if (!string.IsNullOrEmpty(Model.ExistingImageUrl))
             {
                 <img src="@Model.ExistingImageUrl"
-                     class="rounded-circle mb-3"
+                     class="rounded-circle"
                      style="width:150px; height:150px; object-fit:cover; border:4px solid #f1f1f1;" />
             }
             else
             {
-                <div class="rounded-circle mb-3 d-flex justify-content-center align-items-center bg-light"
+                <div class="rounded-circle d-flex justify-content-center align-items-center mx-auto bg-light"
                      style="width:150px; height:150px; border:4px solid #f1f1f1; font-size:48px; color:#aaa;">
                     <i class="bi bi-person"></i>
                 </div>
@@ -27,8 +27,14 @@
             <p><i class="bi bi-info-circle text-success"></i> <strong>Hakkında:</strong> @Model.Bio</p>
         </div>
 
-        <div class="text-center mt-3">
+        <div class="text-center mt-3 mb-4">
             <a asp-action="Edit" class="btn btn-primary px-4">Profili Düzenle</a>
         </div>
+        @if (User.IsInRole("Employer"))
+        {
+            <a asp-controller="Profile" asp-action="MyJobPostings" class="btn btn-primary mb-5">
+                İş İlanlarını Göster
+            </a>
+        }
     </div>
 </div>

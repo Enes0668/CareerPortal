@@ -13,13 +13,21 @@
                         Detayları Gör
                     </a>
 
-                    @if (User.IsInRole("JobSeeker")){
-                    <!-- Başvur Butonu -->
-                    <button class="btn btn-success mt-2" data-bs-toggle="modal" data-bs-target="#applyModal"
-                            data-jobid="@job.Id" data-jobtitle="@job.Title">
-                        Başvur
-                    </button>
+                    @if (User.IsInRole("JobSeeker"))
+                    {
+                        <!-- Başvur Butonu Ortalanmış -->
+                        <div class="d-flex justify-content-center mt-2">
+                            <button class="btn btn-success btn-lg shadow-sm d-flex align-items-center justify-content-center"
+                                    style="width: 100%; max-width: 200px; transition: transform 0.2s, box-shadow 0.2s;"
+                                    data-bs-toggle="modal" data-bs-target="#applyModal"
+                                    data-jobid="@job.Id" data-jobtitle="@job.Title"
+                                    onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.2)';"
+                                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.1)';">
+                                <i class="bi bi-send-fill me-2"></i> Başvur
+                            </button>
+                        </div>
                     }
+
                 </div>
                 <div class="card-footer text-muted">
                     Yayın Tarihi: @job.PostedDate.ToShortDateString()

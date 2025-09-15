@@ -249,8 +249,16 @@
       "PackagePath": "staticwebassets\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png"
     },
     {
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\37e34071-ba3f-461b-a9e9-e8906f013003.png",
+      "PackagePath": "staticwebassets\\uploads\\37e34071-ba3f-461b-a9e9-e8906f013003.png"
+    },
+    {
       "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png",
       "PackagePath": "staticwebassets\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png"
+    },
+    {
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cvs\\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf"
     },
     {
       "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf",
@@ -259,6 +267,10 @@
     {
       "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf",
       "PackagePath": "staticwebassets\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KariyerPortalı.Microsoft.AspNetCore.StaticWebAssets.props",

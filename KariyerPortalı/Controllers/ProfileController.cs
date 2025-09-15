@@ -138,5 +138,18 @@ namespace KariyerPortalı.Controllers
             return Content("Edit endpoint test başarılı!");
         }
 
+        [Authorize(Roles = "Employer")]
+        public async Task<IActionResult> MyJobPostings()
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            var myJobs = await _db.JobPostings
+                .Where(j => j.EmployerId == user.Id)
+                .OrderByDescending(j => j.PostedDate)
+                .ToListAsync();
+
+            // Burada doğru değişkeni gönderiyoruz
+            return View("~/Views/JobPosting/MyJobPostings.cshtml", myJobs);
+        }
     }
 }

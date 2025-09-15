@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 [Authorize(Roles = "JobSeeker")]
 public class ApplicationController : Controller
@@ -24,6 +25,18 @@ public class ApplicationController : Controller
         if (CvFile == null || CvFile.Length == 0)
             return BadRequest("CV yüklenmedi.");
 
+        var user = await _userManager.GetUserAsync(User);
+
+        // Daha önce başvurmuş mu kontrol et
+        var alreadyApplied = await _db.Applications
+            .AnyAsync(a => a.JobId == JobId.ToString() && a.UserId == user.Id);
+
+        if (alreadyApplied)
+        {
+            TempData["Error"] = "Bu ilana zaten başvurdunuz.";
+            return RedirectToAction("Index", "Home"); // veya ilan detay sayfası
+        }
+
         // CV kaydetme
         var uploadsFolder = Path.Combine(_env.WebRootPath, "uploads/cvs");
         Directory.CreateDirectory(uploadsFolder);
@@ -36,8 +49,7 @@ public class ApplicationController : Controller
             await CvFile.CopyToAsync(stream);
         }
 
-        var user = await _userManager.GetUserAsync(User);
-
+        // Başvuru kaydet
         var application = new Application
         {
             JobId = JobId.ToString(),
@@ -49,6 +61,7 @@ public class ApplicationController : Controller
         _db.Add(application);
         await _db.SaveChangesAsync();
 
+        TempData["Success"] = "Başvurunuz başarıyla gönderildi.";
         return RedirectToAction("Index", "Home");
     }
 }

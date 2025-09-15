@@ -56,5 +56,61 @@ namespace KariyerPortalı.Controllers
 
             return View(job);
         }
+        // GET: Edit Job Posting
+        public async Task<IActionResult> Edit(int id)
+        {
+            var job = await _db.JobPostings.FindAsync(id);
+            if (job == null) return NotFound();
+
+            var user = await _userManager.GetUserAsync(User);
+            if (job.EmployerId != user.Id) return Forbid();
+
+            return View(job);
+        }
+
+        // POST: Edit Job Posting
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, JobPosting model)
+        {
+            if (id != model.Id) return BadRequest();
+
+            var job = await _db.JobPostings.FindAsync(id);
+            if (job == null) return NotFound();
+
+            var user = await _userManager.GetUserAsync(User);
+            if (job.EmployerId != user.Id) return Forbid();
+
+            if (ModelState.IsValid)
+            {
+                job.Title = model.Title;
+                job.Description = model.Description;
+                job.Location = model.Location;
+                // diğer alanları ekle
+                await _db.SaveChangesAsync();
+                return RedirectToAction("MyJobPostings", "Profile");
+            }
+
+            return View(model);
+        }
+
+        // GET: Delete Job Posting
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var job = await _db.JobPostings.FindAsync(id);
+            if (job == null) return NotFound();
+
+            var user = await _userManager.GetUserAsync(User);
+            if (job.EmployerId != user.Id) return Forbid(); // Sadece sahibi silebilir
+
+            _db.JobPostings.Remove(job);
+            await _db.SaveChangesAsync();
+
+            return RedirectToAction("MyJobPostings", "Profile");
+        }
+
+        // POST: Delete Job Posting
     }
 }

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<KariyerPortalı.Models.JobPosting>
+
+<h2 class="mb-4">İş İlanlarım</h2>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    @foreach (var job in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm hover-card">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@job.Title</h5>
+                    <p class="mb-1"><strong>Lokasyon:</strong> @job.Location</p>
+                    <p class="mb-1"><strong>Açıklama:</strong> @job.Description</p>
+                    <p class="mb-3 text-muted"><strong>Yayın Tarihi:</strong> @job.PostedDate.ToShortDateString()</p>
+
+                    <div class="mt-auto d-flex gap-2">
+                        <a asp-controller="JobPosting" asp-action="Edit" asp-route-id="@job.Id" class="btn btn-warning flex-grow-1">
+                            Düzenle
+                        </a>
+                        <form asp-controller="JobPosting" asp-action="Delete" method="post" class="flex-grow-1">
+                            <input type="hidden" name="id" value="@job.Id" />
+                            <button type="submit" class="btn btn-danger w-100">
+                                Sil
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .hover-card {
+        transition: transform 0.2s, box-shadow 0.2s;
+        border-radius: 0.75rem;
+    }
+
+    .hover-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .card-body p {
+        margin-bottom: 0.5rem;
+    }
+</style>

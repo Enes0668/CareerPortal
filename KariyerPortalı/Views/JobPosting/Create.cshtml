@@ -32,7 +32,14 @@
                             <label asp-for="SalaryRange" class="form-label"></label>
                             <input asp-for="SalaryRange" class="form-control" />
                         </div>
-                        <button type="submit" class="btn btn-success">Kaydet</button>
+
+                        <div class="d-flex justify-content-center mt-4">
+                            <button type="submit" class="btn btn-success btn-lg px-5 shadow-sm"
+                                    onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2)';"
+                                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.1)';">
+                                Kaydet
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
