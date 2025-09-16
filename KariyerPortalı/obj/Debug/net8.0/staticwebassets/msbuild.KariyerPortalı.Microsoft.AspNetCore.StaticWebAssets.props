@@ -1024,6 +1024,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\148af793-4598-43ea-be0c-7eea5a298968_Enes Melih Eroğlu - CV.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>KariyerPortalı</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/KariyerPortalı</BasePath>
+      <RelativePath>uploads/cvs/148af793-4598-43ea-be0c-7eea5a298968_Enes Melih Eroğlu - CV.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\148af793-4598-43ea-be0c-7eea5a298968_Enes Melih Eroğlu - CV.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>KariyerPortalı</SourceId>
@@ -1071,6 +1087,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\79d0a980-2c8b-4355-b8e8-6653978dfb00_Enes Melih Eroğlu - CV.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\8aaa0af0-2573-4553-b059-680832228797_Enes Melih Eroğlu - CV.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>KariyerPortalı</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/KariyerPortalı</BasePath>
+      <RelativePath>uploads/cvs/8aaa0af0-2573-4553-b059-680832228797_Enes Melih Eroğlu - CV.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\8aaa0af0-2573-4553-b059-680832228797_Enes Melih Eroğlu - CV.pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf))">
       <SourceType>Package</SourceType>

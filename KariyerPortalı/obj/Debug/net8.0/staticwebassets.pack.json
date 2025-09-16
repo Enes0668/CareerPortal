@@ -1,283 +1,291 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KariyerPortalı.bundle.scp.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KariyerPortalı.bundle.scp.css",
       "PackagePath": "staticwebassets\\KariyerPortalı.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png",
       "PackagePath": "staticwebassets\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\37e34071-ba3f-461b-a9e9-e8906f013003.png",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\37e34071-ba3f-461b-a9e9-e8906f013003.png",
       "PackagePath": "staticwebassets\\uploads\\37e34071-ba3f-461b-a9e9-e8906f013003.png"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png",
       "PackagePath": "staticwebassets\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\148af793-4598-43ea-be0c-7eea5a298968_Enes Melih Eroğlu - CV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cvs\\148af793-4598-43ea-be0c-7eea5a298968_Enes Melih Eroğlu - CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf",
       "PackagePath": "staticwebassets\\uploads\\cvs\\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf",
       "PackagePath": "staticwebassets\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\79d0a980-2c8b-4355-b8e8-6653978dfb00_Enes Melih Eroğlu - CV.pdf",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\79d0a980-2c8b-4355-b8e8-6653978dfb00_Enes Melih Eroğlu - CV.pdf",
       "PackagePath": "staticwebassets\\uploads\\cvs\\79d0a980-2c8b-4355-b8e8-6653978dfb00_Enes Melih Eroğlu - CV.pdf"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\8aaa0af0-2573-4553-b059-680832228797_Enes Melih Eroğlu - CV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cvs\\8aaa0af0-2573-4553-b059-680832228797_Enes Melih Eroğlu - CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf",
       "PackagePath": "staticwebassets\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf",
       "PackagePath": "staticwebassets\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf"
     },
     {
-      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\f2476f11-7277-4741-98b3-6478a89731cf_Enes Melih Eroğlu - CV.pdf",
+      "Id": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\f2476f11-7277-4741-98b3-6478a89731cf_Enes Melih Eroğlu - CV.pdf",
       "PackagePath": "staticwebassets\\uploads\\cvs\\f2476f11-7277-4741-98b3-6478a89731cf_Enes Melih Eroğlu - CV.pdf"
     },
     {

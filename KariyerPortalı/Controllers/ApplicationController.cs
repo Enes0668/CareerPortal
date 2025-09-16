@@ -23,18 +23,21 @@ public class ApplicationController : Controller
     public async Task<IActionResult> Apply(int JobId, IFormFile CvFile)
     {
         if (CvFile == null || CvFile.Length == 0)
-            return BadRequest("CV yüklenmedi.");
+        {
+            TempData["Error"] = "CV yüklenmedi.";
+            return RedirectToAction("Index", "Home");
+        }
 
         var user = await _userManager.GetUserAsync(User);
 
-        // Daha önce başvurmuş mu kontrol et
+        // Daha önce başvurmuş mu kontrol et (int olarak)
         var alreadyApplied = await _db.Applications
-            .AnyAsync(a => a.JobId == JobId.ToString() && a.UserId == user.Id);
+            .AnyAsync(a => a.JobId == JobId && a.UserId == user.Id);
 
         if (alreadyApplied)
         {
             TempData["Error"] = "Bu ilana zaten başvurdunuz.";
-            return RedirectToAction("Index", "Home"); // veya ilan detay sayfası
+            return RedirectToAction("Index", "Home");
         }
 
         // CV kaydetme
@@ -52,7 +55,7 @@ public class ApplicationController : Controller
         // Başvuru kaydet
         var application = new Application
         {
-            JobId = JobId.ToString(),
+            JobId = JobId,
             UserId = user.Id,
             CvFilePath = "/uploads/cvs/" + uniqueFileName,
             AppliedDate = DateTime.Now
@@ -64,4 +67,5 @@ public class ApplicationController : Controller
         TempData["Success"] = "Başvurunuz başarıyla gönderildi.";
         return RedirectToAction("Index", "Home");
     }
+
 }
