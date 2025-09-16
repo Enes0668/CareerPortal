@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D7UDXaH+0IHMfXhMmOwsnagy6aF18stlt7DWQgjZxwo=",
+  "Hash": "CQrf8ZHJEOrAV4wk8Unxl2CTMbr9rjo3VPB5h1UzQeA=",
   "Source": "KariyerPortalı",
   "BasePath": "_content/KariyerPortalı",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "KariyerPortalı\\wwwroot",
       "Source": "KariyerPortalı",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KariyerPortalı.styles.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KariyerPortalı.styles.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "KariyerPortalı.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KariyerPortalı.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\bundle\\KariyerPortalı.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KariyerPortalı.bundle.scp.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KariyerPortalı.bundle.scp.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "KariyerPortalı.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KariyerPortalı.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KariyerPortalı.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\css\\site.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\favicon.ico",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\js\\site.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "uploads/074c75ba-7b7f-4749-b650-c5ce64e03b18.png",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\074c75ba-7b7f-4749-b650-c5ce64e03b18.png"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\37e34071-ba3f-461b-a9e9-e8906f013003.png",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\37e34071-ba3f-461b-a9e9-e8906f013003.png",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "uploads/37e34071-ba3f-461b-a9e9-e8906f013003.png",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\37e34071-ba3f-461b-a9e9-e8906f013003.png"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "uploads/54711f1c-f7d0-42a1-ac34-3946ff461f4a.png",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\54711f1c-f7d0-42a1-ac34-3946ff461f4a.png"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "uploads/cvs/27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "uploads/cvs/2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf",
       "AssetKind": "All",
@@ -1290,10 +1290,29 @@
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\79d0a980-2c8b-4355-b8e8-6653978dfb00_Enes Melih Eroğlu - CV.pdf",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/cvs/79d0a980-2c8b-4355-b8e8-6653978dfb00_Enes Melih Eroğlu - CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cvs\\79d0a980-2c8b-4355-b8e8-6653978dfb00_Enes Melih Eroğlu - CV.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "uploads/cvs/97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf",
       "AssetKind": "All",
@@ -1309,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf"
     },
     {
-      "Identity": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf",
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
       "BasePath": "_content/KariyerPortalı",
       "RelativePath": "uploads/cvs/c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf",
       "AssetKind": "All",
@@ -1326,6 +1345,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\f2476f11-7277-4741-98b3-6478a89731cf_Enes Melih Eroğlu - CV.pdf",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/cvs/f2476f11-7277-4741-98b3-6478a89731cf_Enes Melih Eroğlu - CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cvs\\f2476f11-7277-4741-98b3-6478a89731cf_Enes Melih Eroğlu - CV.pdf"
     }
   ]
 }

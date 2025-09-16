@@ -14,6 +14,10 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-controller="Home" asp-action="Index">Kariyer Portalı</a>
+                <form class="d-flex ms-3" asp-controller="JobPosting" asp-action="Index" method="get">
+                    <input class="form-control me-2" type="search" placeholder="İş ara..." name="query" value="@Context.Request.Query["query"]">
+                    <button class="btn btn-outline-light" type="submit">Ara</button>
+                </form>
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto">
                         @if (User.Identity.IsAuthenticated)

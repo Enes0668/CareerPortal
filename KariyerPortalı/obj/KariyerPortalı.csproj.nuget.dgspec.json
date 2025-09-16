@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\KariyerPortalı.csproj": {}
+    "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\KariyerPortalı.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\KariyerPortalı.csproj": {
+    "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\KariyerPortalı.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\KariyerPortalı.csproj",
+        "projectUniqueName": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\KariyerPortalı.csproj",
         "projectName": "KariyerPortalı",
-        "projectPath": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\KariyerPortalı.csproj",
+        "projectPath": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\KariyerPortalı.csproj",
         "packagesPath": "C:\\Users\\Enes Melih Eroğlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Enes Melih Eroğlu\\source\\repos\\KariyerPortalı\\KariyerPortalı\\obj\\",
+        "outputPath": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon2\\CareerPortal\\KariyerPortalı\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Enes Melih Eroğlu\\AppData\\Roaming\\NuGet\\NuGet.Config",

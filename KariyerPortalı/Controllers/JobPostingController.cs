@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
 namespace KariyerPortalı.Controllers
@@ -11,6 +12,7 @@ namespace KariyerPortalı.Controllers
     {
         private readonly ApplicationDbContext _db;
         private readonly UserManager<ApplicationUser> _userManager;
+
 
         public JobPostingController(ApplicationDbContext db, UserManager<ApplicationUser> userManager)
         {
@@ -112,5 +114,40 @@ namespace KariyerPortalı.Controllers
         }
 
         // POST: Delete Job Posting
+        [AllowAnonymous]
+        public async Task<IActionResult> Search(string query)
+        {
+            if (string.IsNullOrEmpty(query))
+            {
+                // Eğer arama boşsa tüm ilanları döndürebilirsin
+                var allJobs = await _db.JobPostings.ToListAsync();
+                return View("Index", allJobs);
+            }
+
+            var results = await _db.JobPostings
+                .Where(j => j.Title.Contains(query)) // Title'da arama
+                .ToListAsync();
+
+            return View("Index", results); // Index view'i arama sonuçlarını gösterir
+        }
+
+        [AllowAnonymous] // Herkes arama yapabilir
+        public async Task<IActionResult> Index(string query)
+        {
+            // Tüm ilanlar
+            var jobs = from j in _db.JobPostings
+                       select j;
+
+            // Arama varsa filtrele
+            if (!string.IsNullOrEmpty(query))
+            {
+                jobs = jobs.Where(j => j.Title.Contains(query)
+                                    || j.Description.Contains(query)
+                                    || j.Location.Contains(query));
+            }
+
+            var jobList = await jobs.ToListAsync();
+            return View(jobList); // Index.cshtml'i döndür
+        }
     }
 }
