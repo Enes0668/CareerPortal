@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ibqfrxWi2ez1BlkzUZ6LCLkoQ7RKHKhY8nLlWqhpxhE=",
+  "Hash": "cqQ7GhE4OFgUu4QMtsUHiSL9nUJHvxzdH72J/XmWG+4=",
   "Source": "KariyerPortalı",
   "BasePath": "_content/KariyerPortalı",
   "Mode": "Default",
@@ -1307,6 +1307,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\45ea748e-1094-4aa2-8126-b9b1d2eb96fe_Diploma (1).pdf",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/cvs/45ea748e-1094-4aa2-8126-b9b1d2eb96fe_Diploma (1).pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cvs\\45ea748e-1094-4aa2-8126-b9b1d2eb96fe_Diploma (1).pdf"
     },
     {
       "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\79d0a980-2c8b-4355-b8e8-6653978dfb00_Enes Melih Eroğlu - CV.pdf",

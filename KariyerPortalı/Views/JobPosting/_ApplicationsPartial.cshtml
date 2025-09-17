@@ -1,18 +1,35 @@
 ﻿@model IEnumerable<KariyerPortalı.Models.Application>
 
-<div class="list-group">
-    @if (!Model.Any())
-    {
-        <p class="text-muted">Henüz başvuru yok.</p>
-    }
-    else
-    {
-        @foreach (var app in Model)
-        {
-            <div class="list-group-item d-flex justify-content-between align-items-center">
-                <span>@app.User.UserName</span>
-                <span class="text-muted">@app.AppliedDate.ToShortDateString()</span>
-            </div>
-        }
-    }
-</div>
+@if (!Model.Any())
+{
+    <p>Bu ilana henüz başvuru yapılmamış.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Ad Soyad</th>
+                <th>Email</th>
+                <th>Başvuru Tarihi</th>
+                <th>CV</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var app in Model)
+            {
+                <tr>
+                    <td>@app.User.FullName</td> <!-- ApplicationUser'da FullName varsa -->
+                    <td>@app.User.Email</td>
+                    <td>@app.AppliedDate.ToShortDateString()</td>
+                    <td>
+                        <a href="@app.CvFilePath" target="_blank" class="btn btn-sm btn-info">
+                            CV'yi Göster
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
