@@ -114,23 +114,7 @@ namespace KariyerPortalı.Controllers
         }
 
         // POST: Delete Job Posting
-        [AllowAnonymous]
-        public async Task<IActionResult> Search(string query)
-        {
-            if (string.IsNullOrEmpty(query))
-            {
-                // Eğer arama boşsa tüm ilanları döndürebilirsin
-                var allJobs = await _db.JobPostings.ToListAsync();
-                return View("Index", allJobs);
-            }
-
-            var results = await _db.JobPostings
-                .Where(j => j.Title.Contains(query)) // Title'da arama
-                .ToListAsync();
-
-            return View("Index", results); // Index view'i arama sonuçlarını gösterir
-        }
-
+        
         [AllowAnonymous] // Herkes arama yapabilir
         public async Task<IActionResult> Index(string query)
         {
