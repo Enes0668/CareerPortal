@@ -13,21 +13,47 @@
                     <p class="mb-1"><strong>Açıklama:</strong> @job.Description</p>
                     <p class="mb-3 text-muted"><strong>Yayın Tarihi:</strong> @job.PostedDate.ToShortDateString()</p>
 
-                    <div class="mt-auto d-flex gap-2">
-                        <a asp-controller="JobPosting" asp-action="Edit" asp-route-id="@job.Id" class="btn btn-warning flex-grow-1">
+                    <div class="mt-auto d-flex gap-2 flex-column">
+                        <a asp-controller="JobPosting" asp-action="Edit" asp-route-id="@job.Id" class="btn btn-warning w-100">
                             Düzenle
                         </a>
-                        <form asp-controller="JobPosting" asp-action="Delete" method="post" class="flex-grow-1">
+                        <form asp-controller="JobPosting" asp-action="Delete" method="post" class="w-100">
                             <input type="hidden" name="id" value="@job.Id" />
-                            <button type="submit" class="btn btn-danger w-100">
+                            <button type="submit" class="btn btn-danger w-100 mt-1">
                                 Sil
                             </button>
                         </form>
+                        <button class="btn btn-primary w-100 mt-1"
+                                data-bs-toggle="modal"
+                                data-bs-target="#applicationsModal"
+                                data-jobid="@job.Id">
+                            Başvuruları Gör
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     }
+</div>
+
+<!-- Başvurular Modal -->
+<div class="modal fade" id="applicationsModal" tabindex="-1" aria-labelledby="applicationsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="applicationsModalLabel">Başvurular</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+            </div>
+            <div class="modal-body">
+                <div id="applicationsList">
+                    <p>Yükleniyor...</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <style>
@@ -36,12 +62,33 @@
         border-radius: 0.75rem;
     }
 
-    .hover-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    }
+        .hover-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
 
     .card-body p {
         margin-bottom: 0.5rem;
     }
 </style>
+
+<script>
+    var applicationsModal = document.getElementById('applicationsModal');
+    applicationsModal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget;
+        var jobId = button.getAttribute('data-jobid');
+
+        var modalBody = applicationsModal.querySelector('#applicationsList');
+        modalBody.innerHTML = '<p>Yükleniyor...</p>';
+
+        fetch(`/JobPosting/Applications?jobId=${jobId}`)
+            .then(response => response.text())
+            .then(html => {
+                modalBody.innerHTML = html;
+            })
+            .catch(error => {
+                modalBody.innerHTML = '<p>Başvurular yüklenemedi.</p>';
+                console.error(error);
+            });
+    });
+</script>

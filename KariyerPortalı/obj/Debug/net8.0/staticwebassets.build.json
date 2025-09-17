@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VtK6P1utWOgVdNFKbSLRGJRShOwiaOvEV3gwE1n/v7U=",
+  "Hash": "ibqfrxWi2ez1BlkzUZ6LCLkoQ7RKHKhY8nLlWqhpxhE=",
   "Source": "KariyerPortalı",
   "BasePath": "_content/KariyerPortalı",
   "Mode": "Default",
@@ -1383,6 +1383,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\ce2faefc-2a1e-4292-8a4a-87609bf0ac2b_Enes_Melih_Eroglu_CV.pdf",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/cvs/ce2faefc-2a1e-4292-8a4a-87609bf0ac2b_Enes_Melih_Eroglu_CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cvs\\ce2faefc-2a1e-4292-8a4a-87609bf0ac2b_Enes_Melih_Eroglu_CV.pdf"
     },
     {
       "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\f2476f11-7277-4741-98b3-6478a89731cf_Enes Melih Eroğlu - CV.pdf",

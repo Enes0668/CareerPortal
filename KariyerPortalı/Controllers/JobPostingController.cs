@@ -149,5 +149,16 @@ namespace KariyerPortalı.Controllers
             var jobList = await jobs.ToListAsync();
             return View(jobList); // Index.cshtml'i döndür
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Applications(int jobId)
+        {
+            var applications = await _db.Applications
+                .Where(a => a.JobId == jobId)
+                .Include(a => a.User) // Kullanıcı bilgisi
+                .ToListAsync();
+
+            return PartialView("_ApplicationsPartial", applications);
+        }
     }
 }

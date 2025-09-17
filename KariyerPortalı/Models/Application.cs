@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 
 namespace KariyerPortalı.Models
 {
@@ -9,5 +10,6 @@ namespace KariyerPortalı.Models
         public string UserId { get; set; }
         public string CvFilePath { get; set; }
         public DateTime AppliedDate { get; set; }
+        public virtual ApplicationUser User { get; set; }
     }
 }

@@ -93,6 +93,29 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        var applicationsModal = document.getElementById('applicationsModal');
+        applicationsModal.addEventListener('show.bs.modal', function (event) {
+            var button = event.relatedTarget;
+            var jobId = button.getAttribute('data-jobid');
+
+            var modalBody = applicationsModal.querySelector('#applicationsModalBody');
+            modalBody.innerHTML = '<div class="text-center">Yükleniyor...</div>';
+
+            fetch('/JobPosting/Applications?jobId=' + jobId)
+                .then(response => response.text())
+                .then(html => {
+                    modalBody.innerHTML = html;
+                })
+                .catch(error => {
+                    modalBody.innerHTML = '<p class="text-danger">Başvurular yüklenirken hata oluştu.</p>';
+                    console.error(error);
+                });
+        });
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
+
+   
+
 </body>
 </html>
