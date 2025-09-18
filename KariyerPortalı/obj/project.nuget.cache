@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mOXiDldVfbM=",
+  "dgSpecHash": "cwQecc0ME5Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon3\\CareerPortal\\KariyerPortalı\\KariyerPortalı.csproj",
+  "projectFilePath": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon4\\CareerPortal\\KariyerPortalı\\KariyerPortalı.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Enes Melih Eroğlu\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Enes Melih Eroğlu\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

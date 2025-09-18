@@ -59,13 +59,23 @@ namespace KariyerPortalı.Controllers
             return View(job);
         }
         // GET: Edit Job Posting
-        public async Task<IActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(int? id)
         {
+            if (id == null)
+                return NotFound(); // id yoksa hata döndür
+
             var job = await _db.JobPostings.FindAsync(id);
-            if (job == null) return NotFound();
+            if (job == null)
+                return NotFound(); // job yoksa hata döndür
 
             var user = await _userManager.GetUserAsync(User);
-            if (job.EmployerId != user.Id) return Forbid();
+            if (job.EmployerId != user.Id)
+                return Forbid(); // başkasının ilanını düzenlemeye çalışırsa engelle
+
+            // Cache kontrolü (geri tuşta sorun yaşamamak için)
+            Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate";
+            Response.Headers["Pragma"] = "no-cache";
+            Response.Headers["Expires"] = "0";
 
             return View(job);
         }
@@ -75,13 +85,16 @@ namespace KariyerPortalı.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, JobPosting model)
         {
-            if (id != model.Id) return BadRequest();
+            if (id != model.Id)
+                return BadRequest();
 
             var job = await _db.JobPostings.FindAsync(id);
-            if (job == null) return NotFound();
+            if (job == null)
+                return NotFound();
 
             var user = await _userManager.GetUserAsync(User);
-            if (job.EmployerId != user.Id) return Forbid();
+            if (job.EmployerId != user.Id)
+                return Forbid();
 
             if (ModelState.IsValid)
             {
@@ -89,12 +102,17 @@ namespace KariyerPortalı.Controllers
                 job.Description = model.Description;
                 job.Location = model.Location;
                 // diğer alanları ekle
+
                 await _db.SaveChangesAsync();
+
+                // Post-Redirect-Get (PRG) pattern: kaydettikten sonra GET ile yönlendir
                 return RedirectToAction("MyJobPostings", "Profile");
             }
 
+            // ModelState geçersiz ise aynı sayfaya geri dön
             return View(model);
         }
+
 
         // GET: Delete Job Posting
         [HttpPost]
@@ -144,5 +162,7 @@ namespace KariyerPortalı.Controllers
 
             return PartialView("_ApplicationsPartial", applications);
         }
+
+
     }
 }

@@ -18,5 +18,8 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
