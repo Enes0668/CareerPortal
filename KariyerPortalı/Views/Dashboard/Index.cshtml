@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+
+<h2 class="mb-4">İlan Başvuru Grafiği</h2>
+
+<div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+    <canvas id="applicationsChart" width="400" height="200"></canvas>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+
+    <script>
+        var ctx = document.getElementById('applicationsChart').getContext('2d');
+
+        var chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: 'Başvuru Sayısı',
+                    data: [],
+                    backgroundColor: 'rgba(54, 162, 235, 0.8)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { labels: { color: '#333', font: { size: 14 } } },
+                    tooltip: { enabled: true },
+                    datalabels: {
+                        display: true,
+                        color: '#000',
+                        anchor: 'end',
+                        align: 'end',
+                        font: { weight: 'bold', size: 13 },
+                        formatter: function (value) { return value; }
+                    }
+                },
+                scales: {
+                    x: { ticks: { color: '#333', font: { size: 13 } }, grid: { color: '#e0e0e0' } },
+                    y: { beginAtZero: true, max: 300, ticks: { stepSize: 50, color: '#333', font: { size: 13 } }, grid: { color: '#e0e0e0' } }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+
+        // Grafiği backend’den verilerle güncelleyen fonksiyon
+        function updateChart() {
+            fetch('/Dashboard/GetChartData')
+                .then(response => response.json())
+                .then(data => {
+                    chart.data.labels = data.labels;
+                    chart.data.datasets[0].data = data.values;
+                    chart.update();
+                });
+        }
+
+        // Sayfa yüklendiğinde ve her 10 saniyede bir grafiği güncelle
+        updateChart();
+        setInterval(updateChart, 10000); // 10 saniyede bir
+    </script>
+}

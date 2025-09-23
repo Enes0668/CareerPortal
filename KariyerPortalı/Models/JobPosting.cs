@@ -28,5 +28,6 @@ namespace KariyerPortalı.Models
         // İlanı hangi işveren verdi
         public string EmployerId { get; set; }
         public ApplicationUser Employer { get; set; }
+        public ICollection<Application> Applications { get; set; }
     }
 }
