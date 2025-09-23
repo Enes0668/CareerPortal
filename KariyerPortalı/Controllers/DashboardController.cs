@@ -34,7 +34,7 @@ public class DashboardController : Controller
             {
                 JobTitles = jobPostings.Select(j => j.Title).ToList(),
                 ApplicationsPerJob = jobPostings
-                                     .Select(j => _context.Applications.Count(a => a.Id == j.Id)) // Senin istediğin mantık
+                                     .Select(j => _context.Applications.Count(a => a.JobId == j.Id)) // Senin istediğin mantık
                                      .ToList()
             };
 
@@ -58,7 +58,7 @@ public class DashboardController : Controller
                                   .ToList();
 
         var labels = jobPostings.Select(j => j.Title).ToList();
-        var values = jobPostings.Select(j => _context.Applications.Count(a => a.Id == j.Id)).ToList();
+        var values = jobPostings.Select(j => _context.Applications.Count(a => a.JobId == j.Id)).ToList();
 
         return Json(new { labels, values });
     }
