@@ -12,14 +12,14 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Sadece csproj dosyasını kopyala → restore hızlı olur
-COPY ["KariyerPortalı.csproj", "./"]
-RUN dotnet restore "KariyerPortalı.csproj"
+COPY ["KariyerPortali.csproj", "./"]
+RUN dotnet restore "KariyerPortali.csproj"
 
 # Tüm proje dosyalarını kopyala
 COPY . .
 
 # Publish
-RUN dotnet publish "KariyerPortalı.csproj" -c Release -o /app/publish
+RUN dotnet publish "KariyerPortali.csproj" -c Release -o /app/publish
 
 # ---------------------------
 # 3️⃣ Final stage
@@ -29,4 +29,4 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Container başlatıldığında çalışacak komut
-ENTRYPOINT ["dotnet", "KariyerPortalı.dll"]
+ENTRYPOINT ["dotnet", "KariyerPortali.dll"]
