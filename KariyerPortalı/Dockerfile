@@ -11,15 +11,14 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Önce csproj dosyasını kopyala → restore hızlı olur
-COPY ["KariyerPortalı/KariyerPortalı.csproj", "KariyerPortalı/"]
-RUN dotnet restore "KariyerPortalı/KariyerPortalı.csproj"
+# Sadece csproj dosyasını kopyala → restore hızlı olur
+COPY ["KariyerPortalı.csproj", "./"]
+RUN dotnet restore "KariyerPortalı.csproj"
 
 # Tüm proje dosyalarını kopyala
 COPY . .
-WORKDIR "/src/KariyerPortalı"
 
-# Build ve publish
+# Publish
 RUN dotnet publish "KariyerPortalı.csproj" -c Release -o /app/publish
 
 # ---------------------------
