@@ -1,6 +1,6 @@
 .vs/
 KariyerPortalı/bin/
 KariyerPortalı/obj/
-
+KariyerPortalı/appsettings.json
 # Development ayarları
 KariyerPortalı/appsettings.Development.json
