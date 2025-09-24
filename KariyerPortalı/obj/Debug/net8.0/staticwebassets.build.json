@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y9WAmkNdCP19wSFcnECVj4QSIvot3elFCpoZVk3RYG8=",
+  "Hash": "L4wx82Nqvk4xdacwHnNGIWDsPOSMBaKEIRj/b+g4S+g=",
   "Source": "KariyerPortalı",
   "BasePath": "_content/KariyerPortalı",
   "Mode": "Default",
@@ -1898,6 +1898,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\27af3fde-4d36-458f-92d1-ea30cec79143_Enes Melih Eroğlu - CV.pdf"
     },
     {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\2c0177ff-d7c1-4d03-9575-5e846befacac_Enes_Melih_Eroglu_CV.pdf",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/cvs/2c0177ff-d7c1-4d03-9575-5e846befacac_Enes_Melih_Eroglu_CV.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cvs\\2c0177ff-d7c1-4d03-9575-5e846befacac_Enes_Melih_Eroglu_CV.pdf"
+    },
+    {
       "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\2f424699-6dd7-4f21-a48d-0b4bb05fdf8b_Diploma (1).pdf",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
@@ -1993,6 +2012,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\735ba696-b608-45ac-b29e-e459d9be29fa_Enes_Melih_Eroglu_CV.pdf"
     },
     {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\74b7d336-af93-4b19-aa24-8c129153579a_Enes Melih Eroğlu - CV eski.pdf",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/cvs/74b7d336-af93-4b19-aa24-8c129153579a_Enes Melih Eroğlu - CV eski.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cvs\\74b7d336-af93-4b19-aa24-8c129153579a_Enes Melih Eroğlu - CV eski.pdf"
+    },
+    {
       "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\79d0a980-2c8b-4355-b8e8-6653978dfb00_Enes Melih Eroğlu - CV.pdf",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
@@ -2069,6 +2107,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\97e277aa-154c-46a2-8a0f-87991c0d71c9_Enes Melih Eroğlu - CV.pdf"
     },
     {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\bcca3bfe-ee7b-40d2-a413-5d2feaddf90a_Diploma (1).pdf",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/cvs/bcca3bfe-ee7b-40d2-a413-5d2feaddf90a_Diploma (1).pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cvs\\bcca3bfe-ee7b-40d2-a413-5d2feaddf90a_Diploma (1).pdf"
+    },
+    {
       "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\c0609aea-8adf-492b-990a-31b6f5e14124_Enes Melih Eroğlu - CV.pdf",
       "SourceId": "KariyerPortalı",
       "SourceType": "Discovered",
@@ -2105,6 +2162,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\cvs\\ce2faefc-2a1e-4292-8a4a-87609bf0ac2b_Enes_Melih_Eroglu_CV.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\e7951e48-6145-4b83-8867-dd80d1f07622_Enes Melih Eroğlu - CV eski.pdf",
+      "SourceId": "KariyerPortalı",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\",
+      "BasePath": "_content/KariyerPortalı",
+      "RelativePath": "uploads/cvs/e7951e48-6145-4b83-8867-dd80d1f07622_Enes Melih Eroğlu - CV eski.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cvs\\e7951e48-6145-4b83-8867-dd80d1f07622_Enes Melih Eroğlu - CV eski.pdf"
     },
     {
       "Identity": "C:\\Users\\Enes Melih Eroğlu\\Desktop\\Projeler\\KariyerPortalKlon5\\CareerPortal\\KariyerPortalı\\wwwroot\\uploads\\cvs\\f2476f11-7277-4741-98b3-6478a89731cf_Enes Melih Eroğlu - CV.pdf",

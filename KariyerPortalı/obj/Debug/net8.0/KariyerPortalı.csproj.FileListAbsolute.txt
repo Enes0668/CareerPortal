@@ -749,3 +749,8 @@ C:\Users\Enes Melih Eroğlu\Desktop\Projeler\KariyerPortalKlon5\CareerPortal\Kar
 C:\Users\Enes Melih Eroğlu\Desktop\Projeler\KariyerPortalKlon5\CareerPortal\KariyerPortalı\obj\Debug\net8.0\KariyerPortalı.pdb
 C:\Users\Enes Melih Eroğlu\Desktop\Projeler\KariyerPortalKlon5\CareerPortal\KariyerPortalı\obj\Debug\net8.0\KariyerPortalı.genruntimeconfig.cache
 C:\Users\Enes Melih Eroğlu\Desktop\Projeler\KariyerPortalKlon5\CareerPortal\KariyerPortalı\obj\Debug\net8.0\ref\KariyerPortalı.dll
+C:\Users\Enes Melih Eroğlu\Desktop\Projeler\KariyerPortalKlon5\CareerPortal\KariyerPortalı\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Enes Melih Eroğlu\Desktop\Projeler\KariyerPortalKlon5\CareerPortal\KariyerPortalı\bin\Debug\net8.0\MailKit.dll
+C:\Users\Enes Melih Eroğlu\Desktop\Projeler\KariyerPortalKlon5\CareerPortal\KariyerPortalı\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Enes Melih Eroğlu\Desktop\Projeler\KariyerPortalKlon5\CareerPortal\KariyerPortalı\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Enes Melih Eroğlu\Desktop\Projeler\KariyerPortalKlon5\CareerPortal\KariyerPortalı\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
