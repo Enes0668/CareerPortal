@@ -19,7 +19,7 @@ RUN dotnet restore "KariyerPortali.csproj"
 COPY . .
 
 # Publish
-RUN dotnet publish "KariyerPortali.csproj" -c Release -o /app/publish
+RUN dotnet publish "KariyerPortali.csproj" -c Release -o /app/publish -v:d
 
 # ---------------------------
 # 3️⃣ Final stage
