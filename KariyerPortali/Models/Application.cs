@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace KariyerPortalı.Models
+namespace KariyerPortali.Models
 {
     public class Application
     {

@@ -1,4 +1,4 @@
-using KariyerPortalı.Models;
+using KariyerPortali.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 
-namespace KariyerPortalı.Models
+namespace KariyerPortali.Models
 {
     public class Job
     {

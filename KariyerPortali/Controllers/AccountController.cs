@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authentication;
 
-namespace KariyerPortalı.Controllers
+namespace KariyerPortali.Controllers
 {
     public class AccountController : Controller
     {

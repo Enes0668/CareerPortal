@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace KariyerPortalı.Migrations
+namespace KariyerPortali.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250909123432_migration2")]
@@ -93,7 +93,7 @@ namespace KariyerPortalı.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.Job", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Job", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

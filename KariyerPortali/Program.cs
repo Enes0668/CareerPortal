@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
-using KariyerPortalý.Models;
+using KariyerPortali.Models;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);

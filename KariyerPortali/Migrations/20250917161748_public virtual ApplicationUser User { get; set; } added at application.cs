@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace KariyerPortalı.Migrations
+namespace KariyerPortali.Migrations
 {
     /// <inheritdoc />
     public partial class publicvirtualApplicationUserUsergetsetaddedatapplication : Migration

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace KariyerPortalı.Migrations
+namespace KariyerPortali.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250911124118_New migrate")]
@@ -105,7 +105,7 @@ namespace KariyerPortalı.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.Job", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Job", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -146,7 +146,7 @@ namespace KariyerPortalı.Migrations
                     b.ToTable("Jobs");
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.JobApplication", b =>
+            modelBuilder.Entity("KariyerPortali.Models.JobApplication", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -310,7 +310,7 @@ namespace KariyerPortalı.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.Job", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Job", b =>
                 {
                     b.HasOne("ApplicationUser", "PostedBy")
                         .WithMany()
@@ -321,7 +321,7 @@ namespace KariyerPortalı.Migrations
                     b.Navigation("PostedBy");
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.JobApplication", b =>
+            modelBuilder.Entity("KariyerPortali.Models.JobApplication", b =>
                 {
                     b.HasOne("ApplicationUser", "Applicant")
                         .WithMany()
@@ -329,7 +329,7 @@ namespace KariyerPortalı.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("KariyerPortalı.Models.Job", "Job")
+                    b.HasOne("KariyerPortali.Models.Job", "Job")
                         .WithMany("Applications")
                         .HasForeignKey("JobId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -391,7 +391,7 @@ namespace KariyerPortalı.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.Job", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Job", b =>
                 {
                     b.Navigation("Applications");
                 });

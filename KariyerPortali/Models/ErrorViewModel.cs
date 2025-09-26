@@ -1,4 +1,4 @@
-namespace KariyerPortalı.Models
+namespace KariyerPortali.Models
 {
     public class ErrorViewModel
     {
