@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace KariyerPortalı.Migrations
+namespace KariyerPortali.Migrations
 {
     /// <inheritdoc />
     public partial class DbSetApplicationsadded : Migration

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace KariyerPortalı.Models
+namespace KariyerPortali.Models
 {
     public class ProfileViewModel
     {

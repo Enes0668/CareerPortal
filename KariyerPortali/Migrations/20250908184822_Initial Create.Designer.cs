@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace KariyerPortalı.Migrations
+namespace KariyerPortali.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250908184822_Initial Create")]
@@ -24,7 +24,7 @@ namespace KariyerPortalı.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("KariyerPortalı.Models.Job", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Job", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

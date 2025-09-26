@@ -1,4 +1,4 @@
-﻿using KariyerPortalı.Models;
+﻿using KariyerPortali.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace KariyerPortalı.Migrations
+namespace KariyerPortali.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250917161748_public virtual ApplicationUser User { get; set; } added at application")]
@@ -102,7 +102,7 @@ namespace KariyerPortalı.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.Application", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Application", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -131,7 +131,7 @@ namespace KariyerPortalı.Migrations
                     b.ToTable("Applications");
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.Job", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Job", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -172,7 +172,7 @@ namespace KariyerPortalı.Migrations
                     b.ToTable("Jobs");
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.JobApplication", b =>
+            modelBuilder.Entity("KariyerPortali.Models.JobApplication", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -203,7 +203,7 @@ namespace KariyerPortalı.Migrations
                     b.ToTable("JobApplications");
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.JobPosting", b =>
+            modelBuilder.Entity("KariyerPortali.Models.JobPosting", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -374,7 +374,7 @@ namespace KariyerPortalı.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.Application", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Application", b =>
                 {
                     b.HasOne("ApplicationUser", "User")
                         .WithMany()
@@ -385,7 +385,7 @@ namespace KariyerPortalı.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.Job", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Job", b =>
                 {
                     b.HasOne("ApplicationUser", "PostedBy")
                         .WithMany()
@@ -396,7 +396,7 @@ namespace KariyerPortalı.Migrations
                     b.Navigation("PostedBy");
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.JobApplication", b =>
+            modelBuilder.Entity("KariyerPortali.Models.JobApplication", b =>
                 {
                     b.HasOne("ApplicationUser", "Applicant")
                         .WithMany()
@@ -404,7 +404,7 @@ namespace KariyerPortalı.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("KariyerPortalı.Models.Job", "Job")
+                    b.HasOne("KariyerPortali.Models.Job", "Job")
                         .WithMany("Applications")
                         .HasForeignKey("JobId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -415,7 +415,7 @@ namespace KariyerPortalı.Migrations
                     b.Navigation("Job");
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.JobPosting", b =>
+            modelBuilder.Entity("KariyerPortali.Models.JobPosting", b =>
                 {
                     b.HasOne("ApplicationUser", "Employer")
                         .WithMany()
@@ -477,7 +477,7 @@ namespace KariyerPortalı.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("KariyerPortalı.Models.Job", b =>
+            modelBuilder.Entity("KariyerPortali.Models.Job", b =>
                 {
                     b.Navigation("Applications");
                 });

@@ -1,6 +1,6 @@
 ﻿// Models/DashboardViewModel.cs
 using System.Collections.Generic;
-namespace KariyerPortalı.Models
+namespace KariyerPortali.Models
 {
     public class DashboardViewModel
     {

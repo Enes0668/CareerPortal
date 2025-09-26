@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace KariyerPortalı.Models
+namespace KariyerPortali.Models
 {
     public class JobApplication
     {

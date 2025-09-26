@@ -1,11 +1,11 @@
-﻿using KariyerPortalı.Models;
+﻿using KariyerPortali.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace KariyerPortalı.Controllers
+namespace KariyerPortali.Controllers
 {
     [Authorize(Roles = "Employer")]
     public class JobPostingController : Controller

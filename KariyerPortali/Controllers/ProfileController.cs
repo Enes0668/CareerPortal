@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using KariyerPortalı.Models;
+using KariyerPortali.Models;
 using System.Threading.Tasks;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 
-namespace KariyerPortalı.Controllers
+namespace KariyerPortali.Controllers
 {
     // İstersen [Authorize] kaldırabilirsin test için
     [Authorize]

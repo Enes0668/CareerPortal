@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace KariyerPortalı.Models
+namespace KariyerPortali.Models
 {
     public class JobPosting
     {

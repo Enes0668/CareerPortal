@@ -1,11 +1,11 @@
-﻿using KariyerPortalı.Models;
+﻿using KariyerPortali.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace KariyerPortalı.Controllers
+namespace KariyerPortali.Controllers
 {
 
     public class JobController : Controller
