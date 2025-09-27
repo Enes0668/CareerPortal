@@ -12,8 +12,8 @@ builder.Services.AddControllersWithViews();
 
 // DbContext ekle
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
-);
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 // Email gönderimi için IEmailSender implementasyonu
 builder.Services.AddTransient<IEmailSender, EmailSender>();

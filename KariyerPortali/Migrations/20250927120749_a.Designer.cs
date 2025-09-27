@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KariyerPortali.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250916122527_newww")]
-    partial class newww
+    [Migration("20250927120749_a")]
+    partial class a
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -117,15 +117,21 @@ namespace KariyerPortali.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("JobId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("JobId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("JobPostingId")
+                        .HasColumnType("int");
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("JobPostingId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Applications");
                 });
@@ -373,6 +379,21 @@ namespace KariyerPortali.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("KariyerPortali.Models.Application", b =>
+                {
+                    b.HasOne("KariyerPortali.Models.JobPosting", null)
+                        .WithMany("Applications")
+                        .HasForeignKey("JobPostingId");
+
+                    b.HasOne("ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("KariyerPortali.Models.Job", b =>
                 {
                     b.HasOne("ApplicationUser", "PostedBy")
@@ -387,9 +408,9 @@ namespace KariyerPortali.Migrations
             modelBuilder.Entity("KariyerPortali.Models.JobApplication", b =>
                 {
                     b.HasOne("ApplicationUser", "Applicant")
-                        .WithMany()
+                        .WithMany("Applications")
                         .HasForeignKey("ApplicantId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("KariyerPortali.Models.Job", "Job")
@@ -465,7 +486,17 @@ namespace KariyerPortali.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ApplicationUser", b =>
+                {
+                    b.Navigation("Applications");
+                });
+
             modelBuilder.Entity("KariyerPortali.Models.Job", b =>
+                {
+                    b.Navigation("Applications");
+                });
+
+            modelBuilder.Entity("KariyerPortali.Models.JobPosting", b =>
                 {
                     b.Navigation("Applications");
                 });

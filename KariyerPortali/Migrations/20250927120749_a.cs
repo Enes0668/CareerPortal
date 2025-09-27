@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace KariyerPortali.Migrations
 {
     /// <inheritdoc />
-    public partial class second : Migration
+    public partial class a : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,6 +31,9 @@ namespace KariyerPortali.Migrations
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ProfileImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Bio = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Location = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -157,6 +160,121 @@ namespace KariyerPortali.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "JobPostings",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Location = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    SalaryRange = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PostedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    EmployerId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_JobPostings", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_JobPostings_AspNetUsers_EmployerId",
+                        column: x => x.EmployerId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Jobs",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Company = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Location = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Salary = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
+                    PostedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    PostedById = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Jobs", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Jobs_AspNetUsers_PostedById",
+                        column: x => x.PostedById,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Applications",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    JobId = table.Column<int>(type: "int", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    CvFilePath = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AppliedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    JobPostingId = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Applications", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Applications_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Applications_JobPostings_JobPostingId",
+                        column: x => x.JobPostingId,
+                        principalTable: "JobPostings",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "JobApplications",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    JobId = table.Column<int>(type: "int", nullable: false),
+                    ApplicantId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    CoverLetter = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AppliedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_JobApplications", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_JobApplications_AspNetUsers_ApplicantId",
+                        column: x => x.ApplicantId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_JobApplications_Jobs_JobId",
+                        column: x => x.JobId,
+                        principalTable: "Jobs",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Applications_JobPostingId",
+                table: "Applications",
+                column: "JobPostingId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Applications_UserId",
+                table: "Applications",
+                column: "UserId");
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -195,11 +313,34 @@ namespace KariyerPortali.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_JobApplications_ApplicantId",
+                table: "JobApplications",
+                column: "ApplicantId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_JobApplications_JobId",
+                table: "JobApplications",
+                column: "JobId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_JobPostings_EmployerId",
+                table: "JobPostings",
+                column: "EmployerId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Jobs_PostedById",
+                table: "Jobs",
+                column: "PostedById");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Applications");
+
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
@@ -216,7 +357,16 @@ namespace KariyerPortali.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "JobApplications");
+
+            migrationBuilder.DropTable(
+                name: "JobPostings");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoles");
+
+            migrationBuilder.DropTable(
+                name: "Jobs");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");

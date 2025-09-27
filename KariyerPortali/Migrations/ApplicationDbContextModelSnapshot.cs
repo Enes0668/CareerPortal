@@ -405,9 +405,9 @@ namespace KariyerPortali.Migrations
             modelBuilder.Entity("KariyerPortali.Models.JobApplication", b =>
                 {
                     b.HasOne("ApplicationUser", "Applicant")
-                        .WithMany()
+                        .WithMany("Applications")
                         .HasForeignKey("ApplicantId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("KariyerPortali.Models.Job", "Job")
@@ -481,6 +481,11 @@ namespace KariyerPortali.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ApplicationUser", b =>
+                {
+                    b.Navigation("Applications");
                 });
 
             modelBuilder.Entity("KariyerPortali.Models.Job", b =>
