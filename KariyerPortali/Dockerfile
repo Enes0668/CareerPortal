@@ -12,7 +12,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Sadece csproj dosyasını kopyala → restore hızlı olur
-COPY ["KariyerPortali/KariyerPortali.csproj", "./"]
+COPY ["KariyerPortali.csproj", "./"]
 RUN dotnet restore "KariyerPortali.csproj"
 
 # Tüm proje dosyalarını kopyala
