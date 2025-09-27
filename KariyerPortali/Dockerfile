@@ -11,22 +11,25 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# csproj dosyasını kopyala → restore hızlı olur
-COPY ["KariyerPortali.csproj", "./"]
-RUN dotnet restore "KariyerPortali.csproj"
+# Projenin tüm içeriğini kopyala (alt klasör karmaşasını önlemek için)
+COPY KariyerPortali/ ./KariyerPortali/
 
-# Tüm proje dosyalarını kopyala
-COPY . .
+WORKDIR /src/KariyerPortali
+
+# Restore
+RUN dotnet restore
 
 # Publish
-RUN dotnet publish "KariyerPortali.csproj" -c Release -o /app/publish
+RUN dotnet publish -c Release -o /app/publish
 
 # ---------------------------
 # 3️⃣ Final stage
 # ---------------------------
 FROM base AS final
 WORKDIR /app
+
+# Build aşamasındaki publish dizinini final stage'e kopyala
 COPY --from=build /app/publish .
 
-# Container başlatıldığında çalışacak komut
+# Container başladığında çalışacak komut
 ENTRYPOINT ["dotnet", "KariyerPortali.dll"]
